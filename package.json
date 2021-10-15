@@ -1,0 +1,22 @@
+{
+  "name": "google-sheet-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for read data from Google Sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zupaazhai/google-sheet-proxy.git"
+  },
+  "author": "Supachai Wongmoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zupaazhai/google-sheet-proxy/issues"
+  },
+  "homepage": "https://github.com/zupaazhai/google-sheet-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
