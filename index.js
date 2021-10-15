@@ -19,6 +19,8 @@ app.get('/', async (req, res) => {
   const GOOGLE_AUTH_KEY = process.env.GOOGLE_AUTH_KEY
   const SHEET_URL = `https://sheets.googleapis.com/v4/spreadsheets/${queries.sheet_id}/values/${encodeURI(queries.sheet_name)}?key=${GOOGLE_AUTH_KEY}`
 
+  res.header('Cache-Control', 's-maxage=86400')
+
   try {
     const result = await got.get(SHEET_URL).json()
 
