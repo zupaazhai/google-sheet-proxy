@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/zupaazhai/google-sheet-proxy#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "node-fetch": "^3.0.0"
   }
 }
